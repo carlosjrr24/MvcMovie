@@ -20,3 +20,9 @@ git remote add origin git remote add origin https://github.com/carlosjrr24/MvcMo
 
 # push changes to github
 git push --set-upstream origin master
+
+
+
+Para no subir al repo ciertos archivos o directorios hay que crear un archivo en el repo con el nombre .gitignore
+
+nano .gitignore y colocar el directorio que se desea ignorar ejemplo /Build/* asi no se sube el contenido de la carpeta Build
