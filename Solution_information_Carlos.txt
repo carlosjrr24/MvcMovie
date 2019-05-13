@@ -1,4 +1,3 @@
-
 github 
 # create a new directory, and initialize it with git-specific functions
 git init my-repo
@@ -20,13 +19,20 @@ git remote add origin git remote add origin https://github.com/carlosjrr24/MvcMo
 
 # push changes to github
 git push --set-upstream origin master
-
-
-
+-------------------------------------------------------------------------------------------------------------------------------
 Para no subir al repo ciertos archivos o directorios hay que crear un archivo en el repo con el nombre .gitignore
-
 nano .gitignore y colocar el directorio que se desea ignorar
-
 ejemplos:
 /Build/*  asi no se sube el contenido de la carpeta Build
 *.log     para expluir todos los archivos log 
+-------------------------------------------------------------------------------------------------------------------------------
+el connection string del appsetting.json es:
+"ConnectionStrings": {
+    "MvcMovieContext": "Server=(localdb)\\mssqllocaldb;Database=MvcMovieContext-3dd5a7a9-f71a-48e6-bc59-1646247bef3e;Trusted_Connection=True;MultipleActiveResultSets=true"
+esto creara la base de datos en el localdb no en la base de datos del sql express
+
+cambiarlo por:
+ "ConnectionStrings": {
+    "MvcMovieContext": "Server=.\\SQLEXPRESS;Database=MvcMovie;Integrated Security=True;MultipleActiveResultSets=True"
+
+-------------------------------------------------------------------------------------------------------------------------------
