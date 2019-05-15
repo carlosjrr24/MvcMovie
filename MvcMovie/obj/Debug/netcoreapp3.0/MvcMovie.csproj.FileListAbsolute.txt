@@ -79,6 +79,7 @@ C:\Users\rizzicar\source\repos\MvcMovie\obj\Debug\netcoreapp3.0\Razor\Views\Movi
 C:\Users\rizzicar\source\repos\MvcMovie\obj\Debug\netcoreapp3.0\Razor\Views\Movies\Index.cshtml.g.cs
 C:\Users\rizzicar\source\repos\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\rizzicar\source\repos\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\rizzicar\source\repos\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.0\bundleconfig.json
 C:\Users\rizzicar\source\repos\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 C:\Users\rizzicar\source\repos\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.0\MvcMovie.exe
 C:\Users\rizzicar\source\repos\MvcMovie\MvcMovie\bin\Debug\netcoreapp3.0\MvcMovie.deps.json
